@@ -18,6 +18,12 @@ app.get('/sound/:name', (req, res) => {
     res.json({'sound':'ddddddd'})
   } else if(name=="cat"){
     res.json({'sound':'ccccccc'})
+  } else if(name=="pig"){
+    res.json({'sound':'pigpigpig'})
+  } else if(name=="tiger"){
+    res.json({'sound':'tigertiger'})
+  } else if(name=="dragon"){
+    res.json({'sound':'dragongragon'})
   }else{
     res.json({'sound':'default'})
   }
